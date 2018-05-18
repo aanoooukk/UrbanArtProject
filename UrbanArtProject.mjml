@@ -10,126 +10,148 @@
 
   <mj-body background-color="#eee">
 
-    <mj-section background-url="http://urbanart-paris.fr/wp-content/uploads/2018/04/DESPERADOS_FUTUREDITION_MNSTR_UNIVERS_2.gif" padding-bottom="0">
+    <mj-section background-url="http://urbanart-paris.fr/wp-content/uploads/2018/04/DESPERADOS_FUTUREDITION_MNSTR_UNIVERS_2.gif" padding-bottom="40">
 
       <mj-column>
 
-        <mj-image src="https://urbanart-paris.fr/wp-content/themes/urban-art-paris-1-0-1/img/logo-header-h60-w.png" width="120px" align="center"> </mj-image>
-        
-     <mj-section>
-       <mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526415800/Decouvre-01-01.png" width="287">
-       </mj-image>
-     </mj-section>
+      <mj-image src="https://urbanart-paris.fr/wp-content/themes/urban-art-paris-1-0-1/img/logo-header-h60-w.png" width="120px" align="center" padding-bottom="0"> </mj-image>
+
+
 
       </mj-column>
-     </mj-section>
+      
+      <mj-column width="100%">
+        
+      <mj-text align="center" font-size="18" font-family="oswald" color="white" padding-top="0">
+        <br></br>
+        *|IF:NAME|*
+        	Hey *|NAME|*!
+        *|ELSE:|*
+        	Hey toi !
+        *|END:IF|*
+  
+      </mj-text>
+   
+      </mj-column>
+    </mj-section>
     
     
 
-    <mj-section background-color="black">
-      
-      <mj-column>
-    	<mj-text color="#991F41" font-family="oswald" align="center" padding-top="40" font-size="23px">
-      	Festival Label Valette<br></br> 
-      </mj-text>
-      
-      <mj-text color="#991F41" font-family="oswald" align="center" padding-top="10" font-size="18px">
-       7 septembre 15H <br><br> 
-       9 septembre 23H 			
-      </mj-text>
-      </mj-column>
-      
-			<mj-column width="50%" align="center">
-      <mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526383923/giphy_2.gif" padding-top="30px"></mj-image>
-		</mj-column>
-      
-    </mj-section>
-
-		 <mj-section background-color="#991F41">
-       
-       <mj-column width="50%" align="center">
-      <mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526383939/a.l.-crego-gif-ampolleta.gif" padding-top="20px" padding-bottom="20px"></mj-image>
-		</mj-column>
-      
-      <mj-column>
-    	<mj-text color="#black" font-family="oswald" align="center" padding-top="40" font-size="23px">
-      	JONONE<br>
-        « IN THE BOX »</br> 
-      </mj-text>
-      
-      <mj-text color="black" font-family="oswald" align="center" padding-top="10" font-size="18px">
-       14 avril / 27 mai			
-      </mj-text>
-      </mj-column>
-      
-    </mj-section>
-
-    <mj-section padding-bottom="10px" padding-top="40px" background-color="black">
-      <mj-button width="250" css-class="button" background-color="#991F41" color="black"><a href="#" src="http://urbanart-paris.fr/">En voir plus ?</a>
-      </mj-button>
-    </mj-section>
 
 
 
-    <mj-section background-color="black" padding-top="30px">
+      <mj-section background-color="black">
 
-      <mj-carousel thumbnails="hidden" padding-bottom="10px" border-radius="5px" right-icon="http://res.cloudinary.com/anouk-courant/image/upload/v1526383715/right-arrow.png" icon-width="45px" padding-left="20px" padding-right="20px" left-icon="http://res.cloudinary.com/anouk-courant/image/upload/v1526383715/left-arrow.png">
+        <mj-column>
+          <mj-text color="#6A9624" font-family="oswald" align="center" padding-top="40" font-size="23px">
+            Festival Label Valette<br></br>
+          </mj-text>
 
+          <mj-text color="5B7A1F" font-family="oswald" align="center" padding-top="10" font-size="18px">
+            7 septembre 15H <br><br> 9 septembre 23H
+          </mj-text>
+        </mj-column>
 
-        <mj-carousel-image src="https://farm8.staticflickr.com/7301/16346230159_a75bc31e23_b.jpg" />
-        <mj-carousel-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526383918/DSC5175_1-1200x800.jpg" />
-        <mj-carousel-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526383884/996949_328197560653312_179985088_n.jpg" />
-        <mj-carousel-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526383882/7522038606_da5ab1f8fc_z.jpg" />
+        <mj-column width="50%" align="center">
+          <mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526383923/giphy_2.gif" padding-top="30px"></mj-image>
+        </mj-column>
 
+      </mj-section>
 
-      </mj-carousel>
+      <mj-section background-color="#5B7A1F">
 
-    </mj-section>
-    </mj-section>
-      
-    <mj-section background-url="http://res.cloudinary.com/anouk-courant/image/upload/v1526419440/ligne-reseaux-01.png" padding-bottom="10" background-repeat="no-repeat">	
-    
-      <mj-group>
-      <mj-column width="25%">
-      <mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526419441/linkedin-01.png" width="0" align="center" padding-top="0px">
-        
-      	<a href="#" src="https://www.linkedin.com/company/10169057/"></a>
-        
+        <mj-column width="50%" align="center">
+          <mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526383939/a.l.-crego-gif-ampolleta.gif" padding-top="20px" padding-bottom="20px"></mj-image>
+        </mj-column>
+
+        <mj-column>
+          <mj-text color="#black" font-family="oswald" align="center" padding-top="40" font-size="23px">
+            JONONE<br> « IN THE BOX »</br>
+          </mj-text>
+
+          <mj-text color="black" font-family="oswald" align="center" padding-top="10" font-size="18px">
+            14 avril / 27 mai
+          </mj-text>
+        </mj-column>
+
+      </mj-section>
+
+      <mj-section padding-bottom="40px" padding-top="40px" background-color="black">
+        <mj-button width="250" css-class="button" background-color="#5B7A1F" color="black"><a href="#" src="http://urbanart-paris.fr/">En voir plus ?</a>
+        </mj-button>
+      </mj-section>
+          
+      <mj-section background-color="#6A9624">
+    	<mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526479817/Stat_UrbanArt-01.png">
       </mj-image>
-      </mj-column>
-        
-      <mj-column width="25%">
-      <mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526419440/facebook-01.png" width="0" align="center" padding-top="0px">
-        
-      	<a href="#" src="https://www.facebook.com/urbanartparis/"></a>
-        
-      </mj-image>
-      </mj-column>
-        
-      <mj-column width="25%">
-      <mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526419441/instagram-01.png" width="0" align="center" padding-top="0px">
-        
-      	<a href="#" src="https://www.instagram.com/urbanartparis/"></a>
-        
-      </mj-image>
-      </mj-column>
-        
-      <mj-column width="25%">
-      <mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526419440/twitter-01.png" width="0" align="center" padding-top="0px">
-        
-      	<a href="#" src="https://twitter.com/UrbanArtParis"></a>
-        
-      </mj-image>
-      </mj-column>
-      
-      
+    </mj-section>
+
+
+
+      <mj-section background-color="black" padding-top="30px">
+
+        <mj-carousel thumbnails="hidden" padding-bottom="10px" border-radius="5px" right-icon="http://res.cloudinary.com/anouk-courant/image/upload/v1526383715/right-arrow.png" icon-width="45px" padding-left="20px" padding-right="20px" left-icon="http://res.cloudinary.com/anouk-courant/image/upload/v1526383715/left-arrow.png">
+
+
+          <mj-carousel-image src="https://farm8.staticflickr.com/7301/16346230159_a75bc31e23_b.jpg" />
+          <mj-carousel-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526383918/DSC5175_1-1200x800.jpg" />
+          <mj-carousel-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526383884/996949_328197560653312_179985088_n.jpg" />
+          <mj-carousel-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526383882/7522038606_da5ab1f8fc_z.jpg" />
+
+
+        </mj-carousel>
+
+      </mj-section>
+    </mj-section>
+
+    <mj-section background-color="5B7A1F" padding-bottom="10" background-repeat="no-repeat" >
+
+      <mj-group width="80%">
+        <mj-column width="25%">
+          <mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526419441/linkedin-01.png" width="0" align="center" padding-top="0px">
+
+            <a href="#" src="https://www.linkedin.com/company/10169057/"></a>
+
+          </mj-image>
+        </mj-column>
+
+        <mj-column width="25%">
+          <mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526419440/facebook-01.png" width="0" align="center" padding-top="0px">
+
+            <a href="#" src="https://www.facebook.com/urbanartparis/"></a>
+
+          </mj-image>
+        </mj-column>
+
+        <mj-column width="25%">
+          <mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526419441/instagram-01.png" width="0" align="center" padding-top="0px">
+
+            <a href="#" src="https://www.instagram.com/urbanartparis/"></a>
+
+          </mj-image>
+        </mj-column>
+
+        <mj-column width="25%">
+          <mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526419440/twitter-01.png" width="0" align="center" padding-top="0px">
+
+            <a href="#" src="https://twitter.com/UrbanArtParis"></a>
+
+          </mj-image>
+        </mj-column>
+
+
       </mj-group>
-      
+
       <mj-text font-family="oswald" align="center">
-    	Copyright All rights reserved
-    </mj-text>  	
-    
+        Copyright All rights reserved
+      </mj-text>
+
     </mj-section>
+        
+      <mj-section padding-bottom="20px" padding-top="20px" background-color="black">
+        <mj-button width="150" css-class="button" background-color="#5B7A1F" color="black"><a href="*|UNSUB|*">Se désabonner</a>
+        </mj-button>
+      </mj-section>
 
   </mj-body>
 </mjml>
