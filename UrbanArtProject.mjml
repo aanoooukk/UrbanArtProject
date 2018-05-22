@@ -2,19 +2,19 @@
 
   <mj-head>
     <mj-style>
-      a{ color: black; font-family: oswald; font-size: 16; align: center; }
+      a{ color: black; font-family: oswald; font-size: 16px; align: center;}
 
     </mj-style>
   </mj-head>
 
 
-  <mj-body background-color="#eee" width="100%">
+  <mj-body background-color="#eee">
 
-    <mj-section background-url="http://urbanart-paris.fr/wp-content/uploads/2018/04/DESPERADOS_FUTUREDITION_MNSTR_UNIVERS_2.gif" padding-bottom="40" >
+    <mj-section background-url="http://urbanart-paris.fr/wp-content/uploads/2018/04/DESPERADOS_FUTUREDITION_MNSTR_UNIVERS_2.gif" padding-bottom="10">
 
       <mj-column>
 
-      <mj-image src="https://urbanart-paris.fr/wp-content/themes/urban-art-paris-1-0-1/img/logo-header-h60-w.png" width="110px" align="center" padding-bottom="0"> </mj-image>
+      <mj-image src="https://urbanart-paris.fr/wp-content/themes/urban-art-paris-1-0-1/img/logo-header-h60-w.png" width="130px" align="center" padding-bottom="0"> </mj-image>
 
 
 
@@ -22,15 +22,19 @@
       
       <mj-column width="100%">
         
-      <mj-text align="center" font-size="30" font-family="oswald" color="white" padding-top="0">
+      <mj-text align="center" font-size="30" font-family="oswald" color="white" padding-top="0" font-weight="200">
         <br></br>
         *|IF:NAME|*
         	Hey *|NAME|*!
         *|ELSE:|*
         	Hey toi !
         *|END:IF|*
-  
       </mj-text>
+        
+        <mj-text align="center" font-size="22px" font-family="oswald" color="white" padding-top="0" font-weight="100">
+          Amateur(trice) de street art ? <br>
+          Ce qui suit devrait te plaire !
+        </mj-text>
    
       </mj-column>
     </mj-section>
@@ -40,57 +44,59 @@
 
 
 
-      <mj-section background-color="black">
+      <mj-section background-color="black" >
 
         <mj-column>
-          <mj-text color="#6A9624" font-family="oswald" align="center" padding-top="40" font-size="23px">
+          <mj-text color="#6A9624" font-family="oswald" align="center" padding-top="40" font-size="23px" font-weight="200">
             Festival Label Valette<br></br>
           </mj-text>
 
-          <mj-text color="5B7A1F" font-family="oswald" align="center" padding-top="10" font-size="18px">
+          <mj-text color="5B7A1F" font-family="oswald" align="center" padding-top="10" font-size="18px" font-weight="200">
             7 septembre 15H <br><br> 9 septembre 23H
           </mj-text>
         </mj-column>
 
-        <mj-column width="50%" align="center">
+        <mj-column width="50%">
           <mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526383923/giphy_2.gif" padding-top="30px"></mj-image>
         </mj-column>
 
       </mj-section>
 
-      <mj-section background-color="#5B7A1F">
+      <mj-section background-color="#5B7A1F" >
 
-        <mj-column width="50%" align="center">
+        <mj-column width="50%">
           <mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526383939/a.l.-crego-gif-ampolleta.gif" padding-top="20px" padding-bottom="20px"></mj-image>
         </mj-column>
 
         <mj-column>
-          <mj-text color="#black" font-family="oswald" align="center" padding-top="40" font-size="23px">
+          <mj-text color="#black" font-family="oswald" align="center" padding-top="40" font-size="23px" font-weight="300">
             JONONE<br> « IN THE BOX »</br>
           </mj-text>
 
-          <mj-text color="black" font-family="oswald" align="center" padding-top="10" font-size="18px">
+          <mj-text color="black" font-family="oswald" align="center" padding-top="10" font-size="18px" font-weight="300">
             14 avril / 27 mai
           </mj-text>
         </mj-column>
 
       </mj-section>
-
-      <mj-column padding-bottom="40px" padding-top="40px" background-color="black" width="100%">
-        <mj-button width="250" css-class="button" background-color="#5B7A1F" color="black"><a href="http://urbanart-paris.fr/">En voir plus ?</a>
+      <mj-section padding="0px">
+      <mj-column background-color="black" width="100%">
+        <mj-button width="250" css-class="button" background-color="#5B7A1F" color="black"><a href="http://urbanart-paris.fr/" >En voir plus ?</a>
         </mj-button>
       </mj-column>
-  
-          
+  </mj-section>
+       <mj-section padding="none">
       <mj-column background-color="#6A9624" width="100%">
-    	<mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526479817/Stat_UrbanArt-01.png" width="90%">
+    	<mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526479817/Stat_UrbanArt-01.png" padding-top="30px">
       </mj-image>
     </mj-column>
+</mj-section>
+          
+          
+          <mj-section padding="none">
+      <mj-column width="100%"  background-color="black" >
 
-
-      <mj-column width="100%" background-color="black" >
-
-        <mj-carousel thumbnails="hidden" padding-top="10px" padding-bottom="10px" border-radius="5px" right-icon="http://res.cloudinary.com/anouk-courant/image/upload/v1526383715/right-arrow.png" icon-width="45px" padding-left="20px" padding-right="20px" left-icon="http://res.cloudinary.com/anouk-courant/image/upload/v1526383715/left-arrow.png">
+        <mj-carousel thumbnails="hidden" padding-top="10px" padding-bottom="10px" border-radius="5px" right-icon="http://res.cloudinary.com/anouk-courant/image/upload/v1526383715/right-arrow.png" icon-width="45px" padding-left="40px" padding-right="40px" left-icon="http://res.cloudinary.com/anouk-courant/image/upload/v1526383715/left-arrow.png">
 
 
           <mj-carousel-image src="https://farm8.staticflickr.com/7301/16346230159_a75bc31e23_b.jpg" />
@@ -106,7 +112,7 @@
 
     <mj-section background-color="5B7A1F" padding-bottom="10" background-repeat="no-repeat" >
 
-      <mj-group width="80%">
+      <mj-group width="70%">
         <mj-column width="25%">
           <mj-image src="http://res.cloudinary.com/anouk-courant/image/upload/v1526419441/linkedin-01.png" width="0" align="center" padding-top="0px" href="https://www.linkedin.com/company/10169057/">
 
@@ -143,7 +149,7 @@
     </mj-section>
         
       <mj-section padding-bottom="20px" padding-top="20px" background-color="black">
-        <mj-button width="150" css-class="button" background-color="#5B7A1F" color="black"><a href="*|UNSUB|*">Se désabonner</a>
+        <mj-button width="25%" css-class="button" background-color="#5B7A1F" color="black"><a href="*|UNSUB|*">Se désabonner</a>
         </mj-button>
       </mj-section>
 
